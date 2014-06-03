@@ -9,14 +9,6 @@ gem 'pg'
 gem 'rails_12factor', group: :production
 # --- added to get Heroku deploy to work - specify ruby version
 ruby "1.9.3"
-# Use rspec for testing
-group :development do
-  gem 'rspec-rails'
-end
-
-group :test do
-  gem 'rspec'
-end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
